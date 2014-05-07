@@ -10,6 +10,8 @@ will make sure that the repositories are configured, that a set tools and
 packages are getting installed and other things that can save you some time 
 when starting a new project.
 
+This repository will always be work in progress. Please submit pull requests.
+
 Usage
 -----
 
