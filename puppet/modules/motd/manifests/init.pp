@@ -1,7 +1,16 @@
 class motd {
 
+    case $lsbdistcodename {
+        "precise": {
+            $motd = "/etc/motd.tail"
+        }
+        default: {
+            $motd = "/etc/motd"
+        }
+    }
+
     file {
-        "/etc/motd":
+        "$motd":
             ensure  => 'present',
             owner   => 'root',
             group   => 'root',
