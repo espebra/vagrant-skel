@@ -26,7 +26,7 @@ Usage
 Supported distributions and releases
 ------------------------------------
 
-| Distribution / Release     | amd64a         | i386          |
+| Distribution / Release     | amd64          | i386          |
 | -------------------------- |:--------------:|:-------------:|
 | Ubuntu Lucid               | YES            |               |
 | Ubuntu Precise             | YES            | YES           |
