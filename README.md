@@ -10,37 +10,29 @@ benefit from easy access to multiple distributions.
 Usage
 -----
 
-git clone 
-cd vagrant-skel
-vagrant status
-
-# To build a new VM
-vagrant up <dist-arch>
-
-# To connect to the VM
-vagrant ssh <dist-arch>
-
-# To clean up
-vagrant destroy <dist-arch>
+    git clone 
+    cd vagrant-skel
+    vagrant status
+    
+    # To build a new VM
+    vagrant up <dist-arch>
+    
+    # To connect to the VM
+    vagrant ssh <dist-arch>
+    
+    # To clean up
+    vagrant destroy <dist-arch>
 
 Supported distributions and releases
 ------------------------------------
 
-+----------------------------+----------------+---------------+
-| **Distribution / Release** | **amd64**      | **i386**      |
-+----------------------------+----------------+---------------+
+| Distribution / Release     | amd64a         | i386          |
+| -------------------------- |:--------------:|:-------------:|
 | Ubuntu Lucid               | YES            |               |
-+----------------------------+----------------+---------------+
 | Ubuntu Precise             | YES            | YES           |
-+----------------------------+----------------+---------------+
 | Ubuntu Trusty              | YES            | YES           |
-+----------------------------+----------------+---------------+
 | Debian Squeeze             | YES            |               |
-+----------------------------+----------------+---------------+
 | Debian Wheezy              | YES            | YES           |
-+----------------------------+----------------+---------------+
 | CentOS 5                   | YES            | YES           |
-+----------------------------+----------------+---------------+
 | CentOS 6                   | YES            | YES           |
-+----------------------------+----------------+---------------+
 
