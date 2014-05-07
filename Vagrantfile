@@ -8,7 +8,8 @@ def vm config, ip, box, box_url
     c.vm.hostname = '%s.local' % box.to_sym
     c.vm.boot_timeout = 900
 
-    # Give the VM a public IP address instead of the private one specified below.
+    # Give the VM a public IP address instead of the private one specified 
+    # below.
     #c.vm.network :public_network
     c.vm.network :private_network, ip: ip
 
