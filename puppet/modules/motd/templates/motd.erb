@@ -1,8 +1,19 @@
 
 
+<% if @operatingsystem -%>
   Operating system:  <%= @operatingsystem %>
+<% end -%>
+<% if @operatingsystemrelease -%>
   Release number:    <%= @operatingsystemrelease %>
+<% end -%>
+<% if @lsbdistcodename -%>
   Release code name: <%= @lsbdistcodename %>
+<% end -%>
+<% if @architecture -%>
   Architecture:      <%= @architecture %>
+<% end -%>
+<% if @hostname -%>
+  Hostname:          <%= @hostname %>
+<% end -%>
 
 
