@@ -1,5 +1,5 @@
-vagrant-skel
-============
+Vagrant Skeleton
+================
 
 This is a repository consisting of vagrant and puppet configuration for 
 multiple linux distributions and releases. 
@@ -17,15 +17,23 @@ Usage
 
     git clone 
     cd vagrant-skel
+ 
+    # See the status of the VMs
     vagrant status
+
+    # To build all VMs (will take a long time)
+    vagrant up
     
-    # To build a new VM
+    # To build a specific VM
     vagrant up <dist-arch>
     
-    # To connect to the VM
+    # To connect to a VM
     vagrant ssh <dist-arch>
     
-    # To clean up
+    # To clean up everything
+    vagrant destroy
+
+    # To clean up one specific VM
     vagrant destroy <dist-arch>
 
 Supported distributions and releases
