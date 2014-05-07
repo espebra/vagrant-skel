@@ -5,7 +5,10 @@ This is a repository consisting of vagrant and puppet configuration for
 multiple linux distributions and releases. 
 
 The idea is to use these files as a skel when starting a new project that will
-benefit from easy access to multiple distributions.
+benefit from easy access to multiple distributions. The puppet configuration
+will make sure that the repositories are configured, that a set tools and 
+packages are getting installed and other things that can save you some time 
+when starting a new project.
 
 Usage
 -----
