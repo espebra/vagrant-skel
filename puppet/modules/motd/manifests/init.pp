@@ -4,6 +4,9 @@ class motd {
         "precise": {
             $motd = "/etc/motd.tail"
         }
+        "squeeze": {
+            $motd = "/var/run/motd"
+        }
         default: {
             $motd = "/etc/motd"
         }
