@@ -4,7 +4,7 @@ class packages::precise {
         'emacs', 'build-essential', 'devscripts', 'debhelper', 
         'git', 'pylint', 'python-nose', 'apt-transport-https', 'pkg-config',
         'libtool', 'automake', 'python-docutils', 'libncurses5-dev', 
-        'libpcre3-dev', 'libedit-dev' ]
+        'libpcre3-dev', 'libedit-dev', 'rst2pdf' ]
     
     package {
         $packages:
