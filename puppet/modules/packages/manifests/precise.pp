@@ -1,6 +1,6 @@
 class packages::precise {
 
-    $packages = [ 'libwww-perl', 'strace', 'lsof', 'vim', 
+    $packages = [ 'libwww-perl', 'strace', 'lsof', 'vim', 'curl',
         'emacs', 'build-essential', 'devscripts', 'debhelper', 
         'git', 'pylint', 'python-nose', 'apt-transport-https', 'pkg-config',
         'libtool', 'automake', 'python-docutils', 'libncurses5-dev', 
