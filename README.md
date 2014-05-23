@@ -41,11 +41,10 @@ Supported distributions and releases
 
 | Distribution / Release     | amd64          | i386          |
 | -------------------------- |:--------------:|:-------------:|
-| Ubuntu Lucid               | YES            |               |
-| Ubuntu Precise             | YES            | YES           |
-| Ubuntu Trusty              | YES            | YES           |
-| Debian Squeeze             | YES            |               |
-| Debian Wheezy              | YES            | YES           |
-| CentOS 5                   | YES            | YES           |
-| CentOS 6                   | YES            | YES           |
+| Ubuntu Precise             | X              | X             |
+| Ubuntu Trusty              | X              | X             |
+| Debian Squeeze             | X              | X             |
+| Debian Wheezy              | X              | X             |
+| CentOS 5                   | X              | X             |
+| CentOS 6                   | X              | X             |
 
