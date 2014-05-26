@@ -36,6 +36,13 @@ Usage
     # To clean up one specific VM
     vagrant destroy <dist-arch>
 
+Customization
+-------------
+Customization is possible possible in many ways, but the two following methods are probably the easiest to use.
+
+1. Add executable files to the init.d directory. If the name of the files matche, they will be executed during firstboot as root. More information is available in init.d/README. 
+2. Modify the Puppet configuration and create your own modules, etc.
+
 Supported distributions and releases
 ------------------------------------
 

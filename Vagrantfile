@@ -4,7 +4,8 @@
 def vm config, ip, box, box_url, checksum
   config.vm.define box.to_sym do |c|
     # Give the VM a public or private IP address. PS: By default, the vagrant
-    # images are not secure to expose as the allow login with known keys and passwords.
+    # images are not secure to expose as they allow login with known keys and 
+    # passwords.
     #c.vm.network :public_network
     c.vm.network :private_network, ip: ip
 
