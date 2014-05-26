@@ -5,16 +5,16 @@ deb mirror://mirrors.ubuntu.com/mirrors.txt precise-backports main restricted un
 deb mirror://mirrors.ubuntu.com/mirrors.txt precise-security main restricted universe multiverse
 
 ###### Ubuntu Main Repos
-deb http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse 
-deb-src http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse 
+#deb http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse 
+#deb-src http://archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse 
 
 ###### Ubuntu Update Repos
-deb http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse 
-deb http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse 
-deb http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse 
-deb-src http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse 
-deb-src http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse 
-deb-src http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse 
+#deb http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse 
+#deb http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse 
+#deb http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse 
+#deb-src http://archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse 
+#deb-src http://archive.ubuntu.com/ubuntu/ precise-updates main restricted universe multiverse 
+#deb-src http://archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse 
 
 ###### Ubuntu Partner Repo
 deb http://archive.canonical.com/ubuntu precise partner
