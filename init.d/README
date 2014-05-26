@@ -1,5 +1,5 @@
 In this directory you may put files that will be executed by puppet at time of 
-build. The file names should match:
+build. Remember to chmod +x the files. The file names should match:
 
 Filename                Hosts
 --------                ------
@@ -7,4 +7,10 @@ init                    All hosts.
 init.$hostname          That specific host.
 init.$operatingsystem   All hosts with that operating system.
 init.$lsbdistcodename   All hosts with that distribution release.
+
+Examples
+--------
+init            will execute on all hosts.
+init.Ubuntu     will execute on Ubuntu hosts only.
+init.precise    will execute on Ubuntu Precise hosts only.
 
