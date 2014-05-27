@@ -10,7 +10,7 @@ init.$lsbdistcodename   All hosts with that distribution release.
 
 Examples
 --------
-init            will execute on all hosts.
-init.Ubuntu     will execute on Ubuntu hosts only.
-init.precise    will execute on Ubuntu Precise hosts only.
-
+init                    will execute on all hosts.
+init.Ubuntu             will execute on Ubuntu hosts only.
+init.precise            will execute on Ubuntu Precise hosts only.
+init.CentOS             will execute on CentOS hosts only.
