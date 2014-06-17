@@ -64,5 +64,6 @@ end
 
 Vagrant.configure('2') do |config|
   freebsd config, '10.0.0.30', 'freebsd10-amd64', 'https://images.varnish-software.com/vagrant/freebsd-10-amd64-virtualbox.box', '0a9337426c2e97d9f53883cbbafadb49'
+  freebsd config, '10.0.0.31', 'freebsd10-i386', 'https://images.varnish-software.com/vagrant/freebsd-10-i386-virtualbox.box', '0a9337426c2e97d9f53883cbbafadb49'
 end
 
