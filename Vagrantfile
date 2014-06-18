@@ -60,11 +60,11 @@ def freebsd config, ip, box, box_url, checksum
     c.vm.hostname = '%s.local' % box.to_sym
     c.vm.boot_timeout = 900
 
-    config.vm.provision :puppet do |puppet|
-      puppet.manifests_path = "puppet/manifests"
-      puppet.manifest_file  = "init.pp"
-      puppet.module_path  = "puppet/modules"
-    end
+    #config.vm.provision :puppet do |puppet|
+    #  puppet.manifests_path = "puppet/manifests"
+    #  puppet.manifest_file  = "init.pp"
+    #  puppet.module_path  = "puppet/modules"
+    #end
   end
 end
 
