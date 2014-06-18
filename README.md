@@ -54,4 +54,5 @@ Supported distributions and releases
 | Debian Wheezy              | X              | X             |
 | CentOS 5                   | X              | X             |
 | CentOS 6                   | X              | X             |
+| FreeBSD 10                 | X              | X             |
 
