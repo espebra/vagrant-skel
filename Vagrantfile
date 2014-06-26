@@ -40,6 +40,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.3', 'centos5-i386', 'https://images.varnish-software.com/vagrant/centos-5-i386-virtualbox.box', '0b76b2e6d008df87b9b67928463ac37e'
   linux config, '10.0.0.4', 'centos6-amd64', 'https://images.varnish-software.com/vagrant/centos-6-amd64-virtualbox.box', '98d830d0718af31c6a823a0b3d1ee8e0'
   linux config, '10.0.0.5', 'centos6-i386', 'https://images.varnish-software.com/vagrant/centos-6-i386-virtualbox.box', 'd58cd50dcf8833aeb9c15b8d6e0fef3b'
+  linux config, '10.0.0.6', 'centos7-amd64', 'https://images.varnish-software.com/vagrant/centos-7-amd64-virtualbox.box', '0bad421c3e79842b86cc581d43685abb'
   linux config, '10.0.0.10', 'precise-amd64', 'https://images.varnish-software.com/vagrant/ubuntu-12.04-amd64-virtualbox.box', 'b211b4dcb8bc60a45ea3317a706bb6b8'
   linux config, '10.0.0.11', 'precise-i386', 'https://images.varnish-software.com/vagrant/ubuntu-12.04-i386-virtualbox.box', 'ee0fa957b5ef4a03eb0220a73dd0cb49'
   linux config, '10.0.0.12', 'trusty-amd64', 'https://images.varnish-software.com/vagrant/ubuntu-14.04-amd64-virtualbox.box', 'c5ce0e694d3de05300ebbe0dc65c624e'

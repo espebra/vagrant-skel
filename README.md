@@ -54,5 +54,11 @@ Supported distributions and releases
 | Debian Wheezy              | X              | X             |
 | CentOS 5                   | X              | X             |
 | CentOS 6                   | X              | X             |
+| CentOS 7                   | X              |               |
 | FreeBSD 10                 | X              | X             |
+
+TODO
+----
+* Add configuration management to FreeBSD 10.
+* Add configuration management to CentOS 7.
 
