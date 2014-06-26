@@ -61,4 +61,5 @@ TODO
 ----
 * Add configuration management to FreeBSD 10.
 * Add configuration management to CentOS 7.
+* Install Virtualbox guest additions on CentOS 7.
 
