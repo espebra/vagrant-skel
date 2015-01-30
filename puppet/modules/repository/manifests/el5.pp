@@ -26,11 +26,6 @@ class repository::el5 {
             gpgcheck   => 1,
             gpgkey     => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL',
             require    => Exec['rpm-key EPEL'];
-        'varnish':
-            descr      => 'Varnish 3.0 for Enterprise Linux el5 - $basearch',
-            baseurl    => 'http://repo.varnish-cache.org/redhat/varnish-3.0/el5/$basearch',
-            enabled    => 1,
-            gpgcheck   => 0;
     }
 }
 
