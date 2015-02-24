@@ -1,14 +1,8 @@
 Vagrant Skeleton
 ================
 
-This is a repository consisting of vagrant and puppet configuration for 
-multiple linux distributions and releases. 
-
-The idea is to use these files as a skel when starting a new project that will
-benefit from easy access to multiple distributions. The puppet configuration
-will make sure that the repositories are configured, that a set tools and 
-packages are getting installed and other things that can save you some time 
-when starting a new project.
+This is a repository consisting of vagrant configuration for multiple
+distributions and releases. 
 
 This repository will always be work in progress. Please submit pull requests.
 
@@ -36,13 +30,6 @@ Usage
     # To clean up one specific VM
     vagrant destroy <dist-arch>
 
-Customization
--------------
-Customization is possible possible in many ways, but the two following methods are probably the easiest to use.
-
-1. Add executable files to the init.d directory. If the name of the files matche, they will be executed during firstboot as root. More information is available in init.d/README. 
-2. Modify the Puppet configuration and create your own modules, etc.
-
 Supported distributions and releases
 ------------------------------------
 
@@ -52,6 +39,7 @@ Supported distributions and releases
 | Ubuntu Trusty              | X              | X             |
 | Debian Squeeze             | X              | X             |
 | Debian Wheezy              | X              | X             |
+| Debian Jessie              | X              |               |
 | CentOS 5                   | X              | X             |
 | CentOS 6                   | X              | X             |
 | CentOS 7                   | X              |               |
@@ -59,7 +47,4 @@ Supported distributions and releases
 
 TODO
 ----
-* Add configuration management to FreeBSD 10.
-* Add configuration management to CentOS 7.
-* Install Virtualbox guest additions on CentOS 7.
 

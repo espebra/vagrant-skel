@@ -49,6 +49,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.21', 'squeeze-i386',  'https://images.varnish-software.com/vagrant/debian-6-i386-virtualbox.box',      '2d6e1ab1e0d5db4196275f3f2eecc882'
   linux config, '10.0.0.22', 'wheezy-amd64',  'https://images.varnish-software.com/vagrant/debian-7-amd64-virtualbox.box',     '5f2963d6d54f5da5dda06f25ddd35b5c'
   linux config, '10.0.0.23', 'wheezy-i386',   'https://images.varnish-software.com/vagrant/debian-7-i386-virtualbox.box',      '0a9337426c2e97d9f53883cbbafadb49'
+  linux config, '10.0.0.24', 'jessie-amd64',  'https://images.varnish-software.com/vagrant/debian-8-amd64-virtualbox.box',     '3305915a7f7688656a8a144f863ca37c'
 end
 
 
