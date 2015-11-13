@@ -18,6 +18,12 @@ def linux config, ip, box, hostname, box_url
     #  v.customize ['modifyvm', :id, '--name', box.to_sym]
     #end
 
+    # Memory (MB) and CPU (vCPU) allocation
+    c.vm.provider :virtualbox do |v|
+      v.memory = 512
+      v.cpus = 1
+    end
+
     c.vm.box_url = box_url
     c.vm.box = box
     c.vm.hostname = '%s.local' % hostname.to_sym
