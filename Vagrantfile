@@ -54,6 +54,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.11', 'varnish/ubuntu-12.04-i386',  'ubuntu-12.04-i386',  'https://images.varnish-software.com/vagrant/ubuntu-12.04-i386.json'
   linux config, '10.0.0.12', 'varnish/ubuntu-14.04-amd64', 'ubuntu-14.04-amd64', 'https://images.varnish-software.com/vagrant/ubuntu-14.04-amd64.json'
   linux config, '10.0.0.13', 'varnish/ubuntu-14.04-i386',  'ubuntu-14.04-i386',  'https://images.varnish-software.com/vagrant/ubuntu-14.04-i386.json'
+  linux config, '10.0.0.14', 'varnish/ubuntu-16.04-amd64', 'ubuntu-16.04-amd64', 'https://images.varnish-software.com/vagrant/ubuntu-16.04-amd64.json'
   linux config, '10.0.0.20', 'varnish/debian-6-amd64',     'debian-6-amd64',     'https://images.varnish-software.com/vagrant/debian-6-amd64.json'
   linux config, '10.0.0.21', 'varnish/debian-6-i386',      'debian-6-i386',      'https://images.varnish-software.com/vagrant/debian-6-i386.json'
   linux config, '10.0.0.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'https://images.varnish-software.com/vagrant/debian-7-amd64.json'
