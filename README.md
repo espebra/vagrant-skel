@@ -37,6 +37,7 @@ Supported distributions and releases
 | -------------------------- |:--------------:|:-------------:|
 | Ubuntu Precise             | X              | X             |
 | Ubuntu Trusty              | X              | X             |
+| Ubuntu Xenial              | X              |               |
 | Debian Squeeze             | X              | X             |
 | Debian Wheezy              | X              | X             |
 | Debian Jessie              | X              |               |
