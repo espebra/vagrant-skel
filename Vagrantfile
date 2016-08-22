@@ -64,6 +64,7 @@ end
 
 
 def freebsd config, ip, box, hostname, box_url, checksum
+  config.ssh.shell = "/bin/sh"
   config.vm.define hostname.to_sym do |c|
     c.vm.network :private_network, ip: ip
     c.vm.synced_folder ".", "/vagrant", :nfs => true, id: "vagrant-root"
