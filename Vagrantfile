@@ -60,6 +60,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'https://images.varnish-software.com/vagrant/debian-7-amd64.json'
   linux config, '10.0.0.23', 'varnish/debian-7-i386',      'debian-7-i386',      'https://images.varnish-software.com/vagrant/debian-7-i386.json'
   linux config, '10.0.0.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'https://images.varnish-software.com/vagrant/debian-8-amd64.json'
+  linux config, '10.0.0.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'https://images.varnish-software.com/vagrant/debian-9-amd64.json'
 end
 
 
