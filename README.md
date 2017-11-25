@@ -45,7 +45,3 @@ Supported distributions and releases
 | CentOS 6                   | X              | X             |
 | CentOS 7                   | X              |               |
 | FreeBSD 10                 | X              | X             |
-
-TODO
-----
-

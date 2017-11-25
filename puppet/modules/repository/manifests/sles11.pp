@@ -1,4 +1,0 @@
-class repository::sles11 {
-
-}
-

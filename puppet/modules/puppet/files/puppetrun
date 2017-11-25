@@ -1,4 +1,0 @@
-#!/bin/bash
-
-puppet apply --modulepath /vagrant/puppet/modules/ /vagrant/puppet/manifests/init.pp 
-
