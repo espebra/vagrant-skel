@@ -33,6 +33,10 @@ Usage
 Supported distributions and releases
 ------------------------------------
 
+The i386 images are not very well maintained, and lag behind in versions.
+As they are generally not frequently used, they are commented out in the
+current Vagrantfile version, and need to be manually enabled.
+
 | Distribution / Release     | amd64          | i386          |
 | -------------------------- |:--------------:|:-------------:|
 | Ubuntu Precise             | X              | X             |
@@ -41,6 +45,7 @@ Supported distributions and releases
 | Debian Squeeze             | X              | X             |
 | Debian Wheezy              | X              | X             |
 | Debian Jessie              | X              |               |
+| Debian Stretch             | X              |               |
 | CentOS 5                   | X              | X             |
 | CentOS 6                   | X              | X             |
 | CentOS 7                   | X              |               |
