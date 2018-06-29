@@ -42,6 +42,7 @@ current Vagrantfile version, and need to be manually enabled.
 | Ubuntu Precise             | X              | X             |
 | Ubuntu Trusty              | X              | X             |
 | Ubuntu Xenial              | X              |               |
+| Ubuntu Bionic              | X              |               |
 | Debian Squeeze             | X              | X             |
 | Debian Wheezy              | X              | X             |
 | Debian Jessie              | X              |               |
