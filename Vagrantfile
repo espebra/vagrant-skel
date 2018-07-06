@@ -56,6 +56,10 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'http://files.varnish-software.com/vagrant/debian-7-amd64.json'
   linux config, '10.0.0.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'http://files.varnish-software.com/vagrant/debian-8-amd64.json'
   linux config, '10.0.0.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'http://files.varnish-software.com/vagrant/debian-9-amd64.json'
+  linux config, '10.0.0.40', 'varnish/sles-11-sp2-amd64',  'sles-11-sp2-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp2-amd64.json'
+  linux config, '10.0.0.41', 'varnish/sles-11-sp4-amd64',  'sles-11-sp4-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp4-amd64.json'
+  linux config, '10.0.0.42', 'varnish/sles-12-amd64',      'sles-12-amd64',      'http://files.varnish-software.com/vagrant/sles-12-amd64.json'
+  linux config, '10.0.0.43', 'varnish/sles-12-sp3-amd64',  'sles-12-sp3-amd64',  'http://files.varnish-software.com/vagrant/sles-12-sp3-amd64.json'
 # Uncomment below lines if you want to use i386 images
 # Disabled by default to improve usability
 #  linux config, '10.0.0.3',  'varnish/centos-5-i386',      'centos-5-i386',      'http://files.varnish-software.com/vagrant/centos-5-i386.json'

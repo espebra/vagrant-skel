@@ -51,3 +51,5 @@ current Vagrantfile version, and need to be manually enabled.
 | CentOS 6                   | X              | X             |
 | CentOS 7                   | X              |               |
 | FreeBSD 10                 | X              | X             |
+| SLES 11                    | X              |               |
+| SLES 12                    | X              |               |
