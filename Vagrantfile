@@ -20,8 +20,8 @@ def linux config, ip, box, hostname, box_url
 
     # Memory (MB) and CPU (vCPU) allocation
     c.vm.provider :virtualbox do |v|
-      v.memory = 512
-      v.cpus = 1
+      v.memory = 1024
+      v.cpus = 2
     end
 
     c.vm.box_url = box_url
