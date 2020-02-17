@@ -2,28 +2,28 @@ Vagrant Skeleton
 ================
 
 This is a repository consisting of vagrant configuration for multiple
-distributions and releases. 
+distributions and releases.
 
 This repository will always be work in progress. Please submit pull requests.
 
 Usage
 -----
 
-    git clone 
+    git clone
     cd vagrant-skel
- 
+
     # See the status of the VMs
     vagrant status
 
     # To build all VMs (will take a long time)
     vagrant up
-    
+
     # To build a specific VM
     vagrant up <dist-arch>
-    
+
     # To connect to a VM
     vagrant ssh <dist-arch>
-    
+
     # To clean up everything
     vagrant destroy
 
@@ -47,6 +47,7 @@ current Vagrantfile version, and need to be manually enabled.
 | Debian Wheezy              | X              | X             |
 | Debian Jessie              | X              |               |
 | Debian Stretch             | X              |               |
+| Debian Buster              | X              |               |
 | CentOS 5                   | X              | X             |
 | CentOS 6                   | X              | X             |
 | CentOS 7                   | X              |               |

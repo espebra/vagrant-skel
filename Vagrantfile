@@ -4,7 +4,7 @@
 def linux config, ip, box, hostname, box_url
   config.vm.define hostname.to_sym do |c|
     # Give the VM a public or private IP address. PS: By default, the vagrant
-    # images are not secure to expose as they allow login with known keys and 
+    # images are not secure to expose as they allow login with known keys and
     # passwords.
     #c.vm.network :public_network
     c.vm.network :private_network, ip: ip
@@ -56,6 +56,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'http://files.varnish-software.com/vagrant/debian-7-amd64.json'
   linux config, '10.0.0.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'http://files.varnish-software.com/vagrant/debian-8-amd64.json'
   linux config, '10.0.0.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'http://files.varnish-software.com/vagrant/debian-9-amd64.json'
+  linux config, '10.0.0.26', 'varnish/debian-10-amd64',    'debian-10-amd64',    'http://files.varnish-software.com/vagrant/debian-10-amd64.json'
   linux config, '10.0.0.40', 'varnish/sles-11-sp2-amd64',  'sles-11-sp2-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp2-amd64.json'
   linux config, '10.0.0.41', 'varnish/sles-11-sp4-amd64',  'sles-11-sp4-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp4-amd64.json'
   linux config, '10.0.0.42', 'varnish/sles-12-amd64',      'sles-12-amd64',      'http://files.varnish-software.com/vagrant/sles-12-amd64.json'
