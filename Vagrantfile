@@ -48,6 +48,7 @@ Vagrant.configure('2') do |config|
   linux config, '10.0.0.2',  'varnish/centos-5-amd64',     'centos-5-amd64',     'http://files.varnish-software.com/vagrant/centos-5-amd64.json'
   linux config, '10.0.0.4',  'varnish/centos-6-amd64',     'centos-6-amd64',     'http://files.varnish-software.com/vagrant/centos-6-amd64.json'
   linux config, '10.0.0.6',  'varnish/centos-7-amd64',     'centos-7-amd64',     'http://files.varnish-software.com/vagrant/centos-7-amd64.json'
+  linux config, '10.0.0.7',  'varnish/centos-8-amd64',     'centos-8-amd64',     'http://files.varnish-software.com/vagrant/centos-8-amd64.json'
   linux config, '10.0.0.10', 'varnish/ubuntu-12.04-amd64', 'ubuntu-12.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-12.04-amd64.json'
   linux config, '10.0.0.12', 'varnish/ubuntu-14.04-amd64', 'ubuntu-14.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-14.04-amd64.json'
   linux config, '10.0.0.14', 'varnish/ubuntu-16.04-amd64', 'ubuntu-16.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-16.04-amd64.json'
