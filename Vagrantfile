@@ -45,24 +45,25 @@ end
 
 # hostname, ip, box, box_url, checksum
 Vagrant.configure('2') do |config|
-  linux config, '10.0.0.2',  'varnish/centos-5-amd64',     'centos-5-amd64',     'http://files.varnish-software.com/vagrant/centos-5-amd64.json'
-  linux config, '10.0.0.4',  'varnish/centos-6-amd64',     'centos-6-amd64',     'http://files.varnish-software.com/vagrant/centos-6-amd64.json'
-  linux config, '10.0.0.6',  'varnish/centos-7-amd64',     'centos-7-amd64',     'http://files.varnish-software.com/vagrant/centos-7-amd64.json'
-  linux config, '10.0.0.7',  'varnish/centos-8-amd64',     'centos-8-amd64',     'http://files.varnish-software.com/vagrant/centos-8-amd64.json'
-  linux config, '10.0.0.10', 'varnish/ubuntu-12.04-amd64', 'ubuntu-12.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-12.04-amd64.json'
-  linux config, '10.0.0.12', 'varnish/ubuntu-14.04-amd64', 'ubuntu-14.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-14.04-amd64.json'
-  linux config, '10.0.0.14', 'varnish/ubuntu-16.04-amd64', 'ubuntu-16.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-16.04-amd64.json'
-  linux config, '10.0.0.15', 'varnish/ubuntu-18.04-amd64', 'ubuntu-18.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-18.04-amd64.json'
-  linux config, '10.0.0.16', 'varnish/ubuntu-20.04-amd64', 'ubuntu-20.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-20.04-amd64.json'
-  linux config, '10.0.0.20', 'varnish/debian-6-amd64',     'debian-6-amd64',     'http://files.varnish-software.com/vagrant/debian-6-amd64.json'
-  linux config, '10.0.0.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'http://files.varnish-software.com/vagrant/debian-7-amd64.json'
-  linux config, '10.0.0.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'http://files.varnish-software.com/vagrant/debian-8-amd64.json'
-  linux config, '10.0.0.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'http://files.varnish-software.com/vagrant/debian-9-amd64.json'
-  linux config, '10.0.0.26', 'varnish/debian-10-amd64',    'debian-10-amd64',    'http://files.varnish-software.com/vagrant/debian-10-amd64.json'
-  linux config, '10.0.0.40', 'varnish/sles-11-sp2-amd64',  'sles-11-sp2-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp2-amd64.json'
-  linux config, '10.0.0.41', 'varnish/sles-11-sp4-amd64',  'sles-11-sp4-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp4-amd64.json'
-  linux config, '10.0.0.42', 'varnish/sles-12-amd64',      'sles-12-amd64',      'http://files.varnish-software.com/vagrant/sles-12-amd64.json'
-  linux config, '10.0.0.43', 'varnish/sles-12-sp3-amd64',  'sles-12-sp3-amd64',  'http://files.varnish-software.com/vagrant/sles-12-sp3-amd64.json'
+  linux config, '192.168.56.2',  'varnish/centos-5-amd64',     'centos-5-amd64',     'http://files.varnish-software.com/vagrant/centos-5-amd64.json'
+  linux config, '192.168.56.4',  'varnish/centos-6-amd64',     'centos-6-amd64',     'http://files.varnish-software.com/vagrant/centos-6-amd64.json'
+  linux config, '192.168.56.6',  'varnish/centos-7-amd64',     'centos-7-amd64',     'http://files.varnish-software.com/vagrant/centos-7-amd64.json'
+  linux config, '192.168.56.7',  'varnish/centos-8-amd64',     'centos-8-amd64',     'http://files.varnish-software.com/vagrant/centos-8-amd64.json'
+  linux config, '192.168.56.8',  'varnish/rocky-8-amd64',      'rocky-8-amd64',      'http://files.varnish-software.com/vagrant/rocky-8-amd64.json'
+  linux config, '192.168.56.10', 'varnish/ubuntu-12.04-amd64', 'ubuntu-12.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-12.04-amd64.json'
+  linux config, '192.168.56.12', 'varnish/ubuntu-14.04-amd64', 'ubuntu-14.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-14.04-amd64.json'
+  linux config, '192.168.56.14', 'varnish/ubuntu-16.04-amd64', 'ubuntu-16.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-16.04-amd64.json'
+  linux config, '192.168.56.15', 'varnish/ubuntu-18.04-amd64', 'ubuntu-18.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-18.04-amd64.json'
+  linux config, '192.168.56.16', 'varnish/ubuntu-20.04-amd64', 'ubuntu-20.04-amd64', 'http://files.varnish-software.com/vagrant/ubuntu-20.04-amd64.json'
+  linux config, '192.168.56.20', 'varnish/debian-6-amd64',     'debian-6-amd64',     'http://files.varnish-software.com/vagrant/debian-6-amd64.json'
+  linux config, '192.168.56.22', 'varnish/debian-7-amd64',     'debian-7-amd64',     'http://files.varnish-software.com/vagrant/debian-7-amd64.json'
+  linux config, '192.168.56.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'http://files.varnish-software.com/vagrant/debian-8-amd64.json'
+  linux config, '192.168.56.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'http://files.varnish-software.com/vagrant/debian-9-amd64.json'
+  linux config, '192.168.56.26', 'varnish/debian-10-amd64',    'debian-10-amd64',    'http://files.varnish-software.com/vagrant/debian-10-amd64.json'
+  linux config, '192.168.56.40', 'varnish/sles-11-sp2-amd64',  'sles-11-sp2-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp2-amd64.json'
+  linux config, '192.168.56.41', 'varnish/sles-11-sp4-amd64',  'sles-11-sp4-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp4-amd64.json'
+  linux config, '192.168.56.42', 'varnish/sles-12-amd64',      'sles-12-amd64',      'http://files.varnish-software.com/vagrant/sles-12-amd64.json'
+  linux config, '192.168.56.43', 'varnish/sles-12-sp3-amd64',  'sles-12-sp3-amd64',  'http://files.varnish-software.com/vagrant/sles-12-sp3-amd64.json'
 # Uncomment below lines if you want to use i386 images
 # Disabled by default to improve usability
 #  linux config, '10.0.0.3',  'varnish/centos-5-i386',      'centos-5-i386',      'http://files.varnish-software.com/vagrant/centos-5-i386.json'
@@ -93,7 +94,7 @@ def freebsd config, ip, box, hostname, box_url, checksum
 end
 
 Vagrant.configure('2') do |config|
-  freebsd config, '10.0.0.30', 'varnish/freebsd-10-amd64', 'freebsd-10-amd64', 'http://files.varnish-software.com/vagrant/freebsd-10-amd64-virtualbox.box', 'abc01a675cfcff0a2c8eddefb17da013'
+  freebsd config, '192.168.56.44', 'varnish/freebsd-10-amd64', 'freebsd-10-amd64', 'http://files.varnish-software.com/vagrant/freebsd-10-amd64-virtualbox.box', 'abc01a675cfcff0a2c8eddefb17da013'
 # Uncomment below lines if you want to use the i386 image
 # Disabled by default to improve usability
 #  freebsd config, '10.0.0.31', 'varnish/freebsd-10-i386',  'freebsd-10-i386',  'http://files.varnish-software.com/vagrant/freebsd-10-i386-virtualbox.box',  '92d549cc2ed2b34b6038f27fb1e165c0'
