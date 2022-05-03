@@ -60,6 +60,7 @@ Vagrant.configure('2') do |config|
   linux config, '192.168.56.24', 'varnish/debian-8-amd64',     'debian-8-amd64',     'http://files.varnish-software.com/vagrant/debian-8-amd64.json'
   linux config, '192.168.56.25', 'varnish/debian-9-amd64',     'debian-9-amd64',     'http://files.varnish-software.com/vagrant/debian-9-amd64.json'
   linux config, '192.168.56.26', 'varnish/debian-10-amd64',    'debian-10-amd64',    'http://files.varnish-software.com/vagrant/debian-10-amd64.json'
+  linux config, '192.168.56.27', 'varnish/debian-11-amd64',    'debian-11-amd64',    'http://files.varnish-software.com/vagrant/debian-11-amd64.json'
   linux config, '192.168.56.40', 'varnish/sles-11-sp2-amd64',  'sles-11-sp2-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp2-amd64.json'
   linux config, '192.168.56.41', 'varnish/sles-11-sp4-amd64',  'sles-11-sp4-amd64',  'http://files.varnish-software.com/vagrant/sles-11-sp4-amd64.json'
   linux config, '192.168.56.42', 'varnish/sles-12-amd64',      'sles-12-amd64',      'http://files.varnish-software.com/vagrant/sles-12-amd64.json'
